@@ -1,0 +1,7 @@
+cat << 'EOF' > build.sh
+#!/bin/bash
+gcc hello.c -o hello
+EOF
+chmod +x build.sh
+./build.sh
+./hello
