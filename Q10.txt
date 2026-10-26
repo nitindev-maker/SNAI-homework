@@ -1,0 +1,9 @@
+cd client-app
+git init
+echo "hi" >> index.html
+echo "hi" >> app.js
+git add index.html app.js
+git commit -m "Initial client files"
+git remote add origin https://github.com/startup/client-app.git
+git push -u origin main
+git log 
