@@ -1,0 +1,6 @@
+cat << 'EOF' > hello.py
+#!/usr/bin/env python3
+print("Hello from Python")
+EOF
+chmod +x hello.py
+./hello.py
