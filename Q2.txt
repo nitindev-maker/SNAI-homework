@@ -1,0 +1,15 @@
+
+cat > create-service << 'EOF'
+#!/bin/bash
+
+mkdir -p service/controllers
+mkdir -p service/models
+mkdir -p service/routes
+mkdir -p service/middleware
+
+echo "API Service" > service/README.md
+echo 'console.log("Server started");' > service/server.js
+EOF
+
+chmod +x create-service
+./create-service
