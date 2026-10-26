@@ -1,0 +1,4 @@
+# your code goes here
+grep -r "DB_PASSWORD" .
+pwd
+cat EventApp/config/.env > EventApp/db_password.txt
